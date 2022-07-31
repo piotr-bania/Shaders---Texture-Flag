@@ -12,7 +12,7 @@ body {
 .webgl {
     position: absolute;
     top: 20%;
-    left: 35%;
+    left: 30%;
     outline: none;
     z-index: -1;
     /* border: 1px solid yellow; */

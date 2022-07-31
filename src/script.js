@@ -72,8 +72,8 @@ scene.add(mesh)
  * Sizes
  */
 const sizes = {
-    width: window.innerWidth * 0.65,
-    height: window.innerHeight * 0.65
+    width: window.innerWidth * 0.85,
+    height: window.innerHeight * 0.85
 }
 
 window.addEventListener('resize', () => {
