@@ -1,19 +1,43 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
 html,
-body
-{
+body {
     overflow: hidden;
+    background: #FEFAF5;
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
+.webgl {
+    position: absolute;
+    top: 20%;
+    left: 35%;
     outline: none;
+    z-index: -1;
+    /* border: 1px solid yellow; */
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: contralto-big, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #F0BC74;
+    text-shadow: 2px 2px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1), 2px 2px 20px rgba(0,0,0,0.1);
+}
+
+p {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    width: 50%;
+    color: #170E02;
+    text-shadow: 2px 2px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1), 2px 2px 20px rgba(0,0,0,0.1);
 }
